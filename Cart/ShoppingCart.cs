@@ -16,6 +16,8 @@ namespace Cart
                 Cart_Items.Add(product);
             }
         }
+        //Need to add RemoveItem() method
+        
         public List<Product> GetItem() => Cart_Items;
 
     }
